@@ -1,0 +1,44 @@
+20
+insert 0 RNA ACGUACCCCGU
+insert 2 DNA CGTAGTACATGCCTAG
+insert 3 RNA UGCACAGUACCGAUAGCAU
+insert 5 RNA AGUCGUGUAUGCAU
+insert 6 RNA CGAUAC
+insert 10 DNA AGTCAGGCCATTGCTG
+insert 11 RNA UAGCAUCCAGGCAUAC
+insert 12 DNA ATTGCTGGCCATGACCA
+insert 13 RNA GUCCAGGAUCAUCCU
+insert 15 DNA ACGTAA
+insert 16 DNA CTGAC
+insert 17 RNA AUCAUCCUUCAUCCA
+insert 19 DNA GCTAAAT
+insert 18 RNA AGTAGT
+insert 9 RNA      
+insert 8 DNA  
+display-all
+remove 2
+remove 6
+display 10
+display 6
+copy 10 14
+clip 3 3 12
+display 3
+clip 10 9 14
+display 10
+clip 10 4 8
+display-all
+copy 0 4
+copy 1 2
+copy 17 19
+display-all
+max-overlap 14 12
+max-overlap 13 17
+max-overlap 13 15
+transcribe 5
+display 5
+transcribe 12
+display 12
+swap 0 5 13 0
+swap 0 3 2 3
+swap 15 6 16 1
+display-all
